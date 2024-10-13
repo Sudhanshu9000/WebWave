@@ -12,7 +12,7 @@ const ContactForm = () => {
   const [location, setLocation] = useState({ lat: 0, lng: 0 });
 
   const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
-  const googleMapsApiKey = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao&libraries=places&callback=initMap'; 
+  const googleMapsApiKey = 'https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap'; 
 
   useEffect(() => {
     // Fetch countries
